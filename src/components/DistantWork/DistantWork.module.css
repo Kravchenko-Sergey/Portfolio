@@ -1,0 +1,28 @@
+.distantWorkBlock {
+    background-image: url("https://static.life.ru/publications/2022/10/9/719598022300.8347-300x.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.distantWorkContainer {
+    padding: 160px 0;
+    flex-direction: column;
+}
+
+.title {
+    margin: 0 0 46px 0;
+    font-size: 40px;
+}
+
+.button {
+    padding: 10px 30px;
+    font-weight: 500;
+    background-color: #f5df4e;
+    border-style: none;
+}
+@media (max-width: 1115px) {
+    .distantWorkContainer {
+        width: 90%;
+        text-align: center;
+    }
+}

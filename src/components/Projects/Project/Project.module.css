@@ -1,0 +1,27 @@
+.project {
+    width: 300px;
+    background-color: lightgrey;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex: 1 1 auto;
+}
+.imgContainer {
+    height: 200px;
+    width: 100%;
+    background-image: url("https://d1whtlypfis84e.cloudfront.net/guides/wp-content/uploads/2019/08/23080751/social-networking-1024x684.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    padding: 5px 20px;
+    font-size: 18px;
+    color: white;
+    background-color: gray;
+    text-decoration: none;
+    border-radius: 5px;
+}

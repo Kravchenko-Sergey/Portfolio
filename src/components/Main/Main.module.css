@@ -1,0 +1,75 @@
+.mainBlock {
+    height: 100vh;
+    background-color: #f5df4e;
+}
+
+.textBlock {
+    width: 350px;
+}
+
+.photo {
+    width: 400px;
+    height: 400px;
+    background-color: black;
+    border: 15px solid white;
+    border-radius: 220px;
+}
+
+.text1 {
+    font-size: 32px;
+}
+
+.text2 {
+    padding: 0 0 10px 0;
+    font-size: 48px;
+}
+
+.button1 {
+    padding: 10px 20px;
+    font-weight: 500;
+    color: white;
+    background-color: #212529;
+    border-style: none;
+}
+
+.button2 {
+    padding: 10px 20px;
+    font-weight: 500;
+    background-color: #f5df4e;
+    border-style: none;
+    text-decoration: underline;
+}
+
+.button2:hover {
+    text-decoration: none;
+}
+
+@media (max-width: 1115px) {
+    .mainContainer {
+        width: 90%;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        text-align: center;
+    }
+    .mainBlock {
+
+    }
+    .text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .text1 {
+        margin: 10px 0 0 0;
+    }
+}
+
+
+@media (max-width: 465px) {
+    .photo {
+        height: 300px;
+        width: 300px;
+    }
+}

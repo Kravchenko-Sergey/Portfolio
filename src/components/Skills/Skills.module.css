@@ -1,0 +1,38 @@
+.skillsBlock {
+    background-color: #f8f9fa;
+}
+
+.skillsContainer {
+    padding: 110px 0;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.subTitle {
+    padding: 2px 5px;
+    background-color: #f5df4e;
+}
+
+.title {
+    margin: 25px 0 90px 0;
+    background-color: lightgrey;
+}
+
+.skills {
+    width: 100%;
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+@media (max-width: 1115px) {
+    .skillsContainer {
+        width: 90%;
+    }
+    .title {
+        font-size: 20px;
+    }
+}

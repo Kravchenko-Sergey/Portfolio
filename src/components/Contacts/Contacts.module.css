@@ -1,0 +1,110 @@
+.contactsBlock {
+    background-color: #f5df4e;
+}
+
+.contactsContainer {
+}
+
+.textBlock {
+    height: 100%;
+    max-width: 50%;
+    padding: 0 100px 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.textBlock h3 {
+    margin: 20px 0 10px 0;
+}
+
+.title {
+    margin: 112px 0 60px 0;
+    font-size: 40px;
+}
+
+.text {
+    margin: 0 0 40px 0;
+    font-size: 21px;
+}
+
+.socialIcons {
+    margin: 65px 0 20px 0;
+    display: flex;
+    gap: 10px;
+}
+
+.socialIcon {
+    height: 30px;
+    width: 30px;
+    background-color: gray;
+}
+
+.formBlock {
+    padding: 0 0 0 20px;
+    flex: 1 1 auto;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form span {
+    padding: 20px 0 0 0;
+}
+
+.input {
+    height: 50px;
+    background-color: #f5df4e;
+    border-style: none;
+    border-bottom: 1px solid lightgrey;
+}
+
+
+.input:focus {
+    border-style: none;
+    border-bottom: 1px solid black;
+}
+
+.textarea {
+    background-color: #f5df4e;
+    border-style: none;
+    resize: vertical;
+}
+
+.textarea:focus {
+    border-style: none;
+    border-bottom: 1px solid black;
+}
+
+.button {
+    padding: 10px 30px;
+    font-weight: 500;
+    color: white;
+    background-color: #212529;
+    border-style: none;
+}
+
+@media (max-width: 1115px) {
+    .contactsContainer {
+        width: 90%;
+    }
+    .textBlock {
+        padding: 0;
+        max-width: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+    .formBlock {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .button {
+        margin: 0 0 20px 0;
+    }
+}
