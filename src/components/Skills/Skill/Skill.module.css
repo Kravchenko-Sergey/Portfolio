@@ -1,8 +1,6 @@
 .skill {
     width: 300px;
     padding: 10px;
-    background-color: lightgrey;
-    border: 1px solid;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -18,4 +16,14 @@
 .icon img {
     height: 100%;
     width: 100%;
+}
+
+.title {
+    margin: 28px 0;
+    font-size: 24px;
+}
+
+.description {
+    color: rgb(108, 117, 125);
+    line-height: 28px;
 }

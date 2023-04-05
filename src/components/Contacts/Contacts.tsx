@@ -23,12 +23,12 @@ export const Contacts = () => {
 					<p>+7(968)272-78-26</p>
 					<ul className={style.socialIcons}>
 						<li className={style.socialIcon}>
-							<a href='https://it-incubator.io/' target='blank'>
+							<a href='https://t.me/Kravchenko_Sergey' target='blank'>
 								<img src={telegramLogo} alt='telegramLogo' />
 							</a>
 						</li>
 						<li className={style.socialIcon}>
-							<a href='https://it-incubator.io/' target='blank'>
+							<a href='https://vk.com/s_a_kravchenko' target='blank'>
 								<img src={VKLogo} alt='VKLogo' />
 							</a>
 						</li>

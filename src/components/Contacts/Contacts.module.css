@@ -26,10 +26,11 @@
 .text {
     margin: 0 0 40px 0;
     font-size: 21px;
+    line-height: 38px;
 }
 
 .socialIcons {
-    margin: 65px 0 20px 0;
+    margin: 65px 0;
     display: flex;
     gap: 10px;
 }
@@ -42,6 +43,11 @@
 .socialIcon img {
     height: 100%;
     width: 100%;
+}
+
+.socialIcon img:hover {
+    transform: scale(1.2);
+    transition: 0.2s;
 }
 
 .formBlock {

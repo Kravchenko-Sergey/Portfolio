@@ -16,16 +16,15 @@
 
 .title {
     margin: 25px 0 90px 0;
-    background-color: lightgrey;
+    font-size: 40px;
 }
 
 .skills {
     width: 100%;
-    border: 1px solid;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 10px 50px;
 }
 
 @media (max-width: 1115px) {
@@ -33,6 +32,6 @@
         width: 90%;
     }
     .title {
-        font-size: 20px;
+        text-align: center;
     }
 }

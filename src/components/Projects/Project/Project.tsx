@@ -15,7 +15,7 @@ export const Project = ({ image, title, description }: ProjectPropsType) => {
 					<img src={image} alt='' />
 				</a>
 			</div>
-			<h3>{title}</h3>
+			<h3 className={style.projectName}>{title}</h3>
 			<span className={style.description}>{description}</span>
 		</div>
 	)

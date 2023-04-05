@@ -7,12 +7,22 @@
     width: 350px;
 }
 
-.photo {
-    width: 400px;
-    height: 400px;
+.avatar {
+    width: 455px;
+    height: 455px;
     background-color: black;
     border: 15px solid white;
     border-radius: 220px;
+    overflow: hidden;
+    position: relative;
+}
+
+.avatar img {
+    height: 130%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    bottom: -90px;
 }
 
 .text1 {
@@ -20,8 +30,24 @@
 }
 
 .text2 {
+    margin: 22px 0 20px 0;
     padding: 0 0 10px 0;
-    font-size: 48px;
+    font-size: 3.5vw;
+}
+
+.buttons {
+    display: flex;
+}
+
+.buttons img {
+    height: 20px;
+    width: 20px;
+}
+
+.button2Block {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
 }
 
 .button1 {
@@ -30,14 +56,16 @@
     color: white;
     background-color: #212529;
     border-style: none;
+    cursor: pointer;
 }
 
 .button2 {
-    padding: 10px 20px;
+    padding: 10px 5px 10px 20px;
     font-weight: 500;
     background-color: #f5df4e;
     border-style: none;
     text-decoration: underline;
+    cursor: pointer;
 }
 
 .button2:hover {
@@ -52,10 +80,29 @@
         justify-content: center;
         text-align: center;
     }
-    .mainBlock {
 
+    .avatar {
+        width: 400px;
+        height: 400px;
+        margin: 80px 0 0 0;
+        background-color: black;
+        border: 15px solid white;
+        border-radius: 220px;
+        overflow: hidden;
+        position: relative;
     }
+
+    .avatar img {
+        height: 130%;
+        width: 100%;
+        object-fit: cover;
+        position: absolute;
+        bottom: -80px;
+        left: 0;
+    }
+
     .text {
+        margin: 40px 0 0 0;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -63,6 +110,9 @@
     }
     .text1 {
         margin: 10px 0 0 0;
+    }
+    .text2 {
+        font-size: 48px;
     }
 }
 

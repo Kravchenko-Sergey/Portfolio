@@ -33,6 +33,7 @@
     margin: 0 0 75px 0;
     font-size: 21px;
     max-width: 65%;
+    line-height: 37px;
 }
 
 .information {
@@ -48,10 +49,13 @@
 
 .propertyTitle {
     color: grey;
+    line-height: 28px;
 }
 
 .propertyValue {
+    font-size: 18px;
     font-weight: 500;
+    line-height: 32px;
 }
 
 .propertyValue a {
@@ -81,10 +85,11 @@
         margin: 0 auto;
     }
     .information {
-        margin: 20px 0 0 0;
+        margin: 40px 0 0 0;
         text-align: center;
     }
     .prop {
         margin: 5px 0;
+        flex: 1 1 50%;
     }
 }
