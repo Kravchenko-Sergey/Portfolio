@@ -2,16 +2,17 @@ import React from 'react'
 import style from './Project.module.css'
 
 type ProjectPropsType = {
+	image: string
 	title: string
 	description: string
 }
 
-export const Project = ({ title, description }: ProjectPropsType) => {
+export const Project = ({ image, title, description }: ProjectPropsType) => {
 	return (
 		<div className={style.project}>
 			<div className={style.imgContainer}>
 				<a href='' className={style.button}>
-					Look
+					<img src={image} alt='' />
 				</a>
 			</div>
 			<h3>{title}</h3>

@@ -1,6 +1,11 @@
 import React from 'react'
 import style from './Contacts.module.css'
 import styleContainer from '../../common/styles/Container.module.css'
+import telegramLogo from '../../assets/images/contactsIcons/telegram logo.svg'
+import VKLogo from '../../assets/images/contactsIcons/cib logo.svg'
+import instagramLogo from '../../assets/images/contactsIcons/instagram logo.svg'
+import githubLogo from '../../assets/images/contactsIcons/github-1 logo.svg'
+import linkedInLogo from '../../assets/images/contactsIcons/LinkedIn_logo_In-Black logo.svg'
 
 export const Contacts = () => {
 	return (
@@ -18,28 +23,28 @@ export const Contacts = () => {
 					<p>+7(968)272-78-26</p>
 					<ul className={style.socialIcons}>
 						<li className={style.socialIcon}>
-							<a href='https://it-incubator.io/'>
-								<i>+</i>
+							<a href='https://it-incubator.io/' target='blank'>
+								<img src={telegramLogo} alt='telegramLogo' />
 							</a>
 						</li>
 						<li className={style.socialIcon}>
-							<a href='https://it-incubator.io/'>
-								<i>+</i>
+							<a href='https://it-incubator.io/' target='blank'>
+								<img src={VKLogo} alt='VKLogo' />
 							</a>
 						</li>
 						<li className={style.socialIcon}>
-							<a href='https://it-incubator.io/'>
-								<i>+</i>
+							<a href='https://it-incubator.io/' target='blank'>
+								<img src={instagramLogo} alt='instagramLogo' />
 							</a>
 						</li>
 						<li className={style.socialIcon}>
-							<a href='https://it-incubator.io/'>
-								<i>+</i>
+							<a href='https://github.com/Kravchenko-Sergey/' target='blank'>
+								<img src={githubLogo} alt='githubLogo' />
 							</a>
 						</li>
 						<li className={style.socialIcon}>
-							<a href='https://it-incubator.io/'>
-								<i>+</i>
+							<a href='https://it-incubator.io/' target='blank'>
+								<img src={linkedInLogo} alt='linkedInLogo' />
 							</a>
 						</li>
 					</ul>

@@ -1,5 +1,6 @@
 .skill {
     width: 300px;
+    padding: 10px;
     background-color: lightgrey;
     border: 1px solid;
     display: flex;
@@ -12,5 +13,9 @@
 .icon {
     height: 60px;
     width: 60px;
-    background-color: gray;
+}
+
+.icon img {
+    height: 100%;
+    width: 100%;
 }
