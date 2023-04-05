@@ -1,13 +1,27 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.3ab1fc42.css",
-    "main.js": "/Portfolio/static/js/main.5bdc6d71.js",
+    "main.css": "/Portfolio/static/css/main.ff98f798.css",
+    "main.js": "/Portfolio/static/js/main.db00869f.js",
+    "static/media/todo.jpg": "/Portfolio/static/media/todo.a4e283545c88526a8318.jpg",
+    "static/media/cmi-header.png": "/Portfolio/static/media/cmi-header.1a5d61bb12462fcad074.png",
+    "static/media/enterprise-social-network.png": "/Portfolio/static/media/enterprise-social-network.047a1f919967b117daf0.png",
+    "static/media/React logo.svg": "/Portfolio/static/media/React logo.e8d274c31aa73254a9d5c51c2c6f10a9.svg",
+    "static/media/instagram logo.svg": "/Portfolio/static/media/instagram logo.16773a14249452300043b1490d376ac6.svg",
+    "static/media/redux logo.svg": "/Portfolio/static/media/redux logo.49055a2b38ba4feb7a5bbc7251c472d7.svg",
+    "static/media/storybook-icon logo.svg": "/Portfolio/static/media/storybook-icon logo.ec07cf272012b851506ca0aafd694e8d.svg",
+    "static/media/github-1 logo.svg": "/Portfolio/static/media/github-1 logo.9bb2986e6f54fa075baf716317da6140.svg",
+    "static/media/cib logo.svg": "/Portfolio/static/media/cib logo.0a9d05859c608e480e0e4cd3daa5fbe3.svg",
     "index.html": "/Portfolio/index.html",
-    "main.3ab1fc42.css.map": "/Portfolio/static/css/main.3ab1fc42.css.map",
-    "main.5bdc6d71.js.map": "/Portfolio/static/js/main.5bdc6d71.js.map"
+    "static/media/Javascript logo.svg": "/Portfolio/static/media/Javascript logo.6ca5b0f8893fa0136158001a3e69c1f2.svg",
+    "static/media/CSS logo.svg": "/Portfolio/static/media/CSS logo.81b5b583ddb28f7e69891aaef853e5fa.svg",
+    "static/media/HTML logo.svg": "/Portfolio/static/media/HTML logo.3c33f91897ca041e5e10abbda574518b.svg",
+    "static/media/telegram logo.svg": "/Portfolio/static/media/telegram logo.e3d1646af63bc9d0023dd214bda0fbbf.svg",
+    "static/media/LinkedIn_logo_In-Black logo.svg": "/Portfolio/static/media/LinkedIn_logo_In-Black logo.721e8ec587e5038cc0d8f3246613bf5e.svg",
+    "main.ff98f798.css.map": "/Portfolio/static/css/main.ff98f798.css.map",
+    "main.db00869f.js.map": "/Portfolio/static/js/main.db00869f.js.map"
   },
   "entrypoints": [
-    "static/css/main.3ab1fc42.css",
-    "static/js/main.5bdc6d71.js"
+    "static/css/main.ff98f798.css",
+    "static/js/main.db00869f.js"
   ]
 }
