@@ -9,7 +9,7 @@ import linkedInLogo from '../../assets/images/contactsIcons/LinkedIn_logo_In-Bla
 
 export const Contacts = () => {
 	return (
-		<div className={style.contactsBlock}>
+		<div id='contacts' className={style.contactsBlock}>
 			<div className={`${styleContainer.container} ${style.contactsContainer}`}>
 				<div className={style.textBlock}>
 					<h2 className={style.title}>Let's get in touch</h2>
