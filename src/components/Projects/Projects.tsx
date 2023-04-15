@@ -10,13 +10,21 @@ export const Projects = () => {
 	const projects = [
 		{
 			id: '1',
+			URL: 'https://github.com/Kravchenko-Sergey/todoList',
 			image: todoListImage,
 			title: 'To-do list',
 			description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci.'
 		},
-		{ id: '2', image: socialNetworkImage, title: 'Social network', description: 'Lorem ipsum dolor sit amet.' },
+		{
+			id: '2',
+			URL: 'https://github.com/Kravchenko-Sergey/social-network',
+			image: socialNetworkImage,
+			title: 'Social network',
+			description: 'Lorem ipsum dolor sit amet.'
+		},
 		{
 			id: '3',
+			URL: '',
 			image: counterImage,
 			title: 'Counter',
 			description: 'Lorem ipsum dolor sit amet, consectetur adipisicing.'
@@ -24,7 +32,13 @@ export const Projects = () => {
 	]
 
 	const projectElement = projects.map(project => (
-		<Project key={project.id} image={project.image} title={project.title} description={project.description} />
+		<Project
+			key={project.id}
+			URL={project.URL}
+			image={project.image}
+			title={project.title}
+			description={project.description}
+		/>
 	))
 
 	return (

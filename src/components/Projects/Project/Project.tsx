@@ -3,15 +3,16 @@ import style from './Project.module.css'
 
 type ProjectPropsType = {
 	image: string
+	URL: string
 	title: string
 	description: string
 }
 
-export const Project = ({ image, title, description }: ProjectPropsType) => {
+export const Project = ({ image, URL, title, description }: ProjectPropsType) => {
 	return (
 		<div className={style.project}>
 			<div className={style.imgContainer}>
-				<a href='' className={style.button}>
+				<a href={URL} target={'_blank'} className={style.button}>
 					<img src={image} alt='' />
 				</a>
 			</div>

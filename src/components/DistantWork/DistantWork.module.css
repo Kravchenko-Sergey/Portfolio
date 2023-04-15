@@ -22,6 +22,11 @@
     border-style: none;
     cursor: pointer;
 }
+
+.button a {
+    text-decoration: none;
+}
+
 @media (max-width: 1115px) {
     .distantWorkContainer {
         width: 90%;

@@ -5,4 +5,5 @@
     color: #212529;
     box-sizing: border-box;
     list-style-type: none;
+    scroll-behavior: smooth;
 }
