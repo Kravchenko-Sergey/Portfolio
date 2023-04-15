@@ -13,7 +13,7 @@ export const AboutMe = () => {
 						Hi, I'm <span className={style.name}>Kravchenko Sergey</span>
 					</div>
 					<p className={style.text}>
-						I am a beginner frontend developer. I enjoy developing simple, clean and slick websites that provide real
+						I'm a beginner frontend developer. I enjoy developing simple, clean and slick websites that provide real
 						value to the end user.
 					</p>
 				</div>
@@ -25,7 +25,7 @@ export const AboutMe = () => {
 					<div className={style.prop}>
 						<p className={style.propertyTitle}>Email:</p>
 						<p className={style.propertyValue}>
-							<a href=''>sergey.ose.pyatigorsk@gmail.com</a>
+							<a href='mailto:sergey.ose.pyatigorsk@gmail.com'>sergey.ose.pyatigorsk@gmail.com</a>
 						</p>
 					</div>
 					<div className={style.prop}>
@@ -34,7 +34,13 @@ export const AboutMe = () => {
 					</div>
 					<div className={style.prop}>
 						<p className={style.propertyTitle}>From:</p>
-						<p className={style.propertyValue}>Pyatigorsk, Russia</p>
+						<a
+							className={style.address}
+							href='https://maps.google.com?saddr=Current+Location&daddr=44.0358221,43.0663875'
+							target='blank'
+						>
+							Pyatigorsk, Russia
+						</a>
 					</div>
 				</div>
 			</div>

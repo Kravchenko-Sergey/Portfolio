@@ -29,6 +29,11 @@
     line-height: 38px;
 }
 
+.tel:hover,
+.address:hover {
+    text-decoration: none;
+}
+
 .socialIcons {
     margin: 65px 0;
     display: flex;

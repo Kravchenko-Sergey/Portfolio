@@ -24,7 +24,7 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 10px 50px;
+    gap: 40px 50px;
 }
 
 @media (max-width: 1115px) {

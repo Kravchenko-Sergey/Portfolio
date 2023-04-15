@@ -20,6 +20,7 @@
     font-weight: 500;
     background-color: #f5df4e;
     border-style: none;
+    cursor: pointer;
 }
 @media (max-width: 1115px) {
     .distantWorkContainer {

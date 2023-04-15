@@ -47,6 +47,16 @@
     flex: 1 1 auto;
 }
 
+.prop a {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.prop a:hover {
+    text-decoration: none;
+}
+
 .propertyTitle {
     color: grey;
     line-height: 28px;

@@ -18,9 +18,17 @@ export const Contacts = () => {
 						the most out of our first catch-up.
 					</p>
 					<h3>Living In:</h3>
-					<address>Pyatigorsk, Russia</address>
+					<a
+						className={style.address}
+						href='https://maps.google.com?saddr=Current+Location&daddr=44.0358221,43.0663875'
+						target='blank'
+					>
+						Pyatigorsk, Russia
+					</a>
 					<h3>Call:</h3>
-					<p>+7(968)272-78-26</p>
+					<a className={style.tel} href='tel:+79682727826'>
+						+7(968)272-78-26
+					</a>
 					<ul className={style.socialIcons}>
 						<li className={style.socialIcon}>
 							<a href='https://t.me/Kravchenko_Sergey' target='blank'>

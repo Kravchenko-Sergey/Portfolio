@@ -6,7 +6,7 @@ export const DistantWork = () => {
 	return (
 		<div className={style.distantWorkBlock}>
 			<div className={`${styleContainer.container} ${style.distantWorkContainer}`}>
-				<h2 className={style.title}>I'm looking into remote work options.</h2>
+				<h2 className={style.title}>I'm looking into remote work options</h2>
 				<button className={style.button}>Hire me!</button>
 			</div>
 		</div>
