@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.b76e08b3.css",
-    "main.js": "/Portfolio/static/js/main.9015c6c5.js",
+    "main.css": "/Portfolio/static/css/main.147a1c98.css",
+    "main.js": "/Portfolio/static/js/main.7007393c.js",
     "static/media/todo.jpg": "/Portfolio/static/media/todo.a4e283545c88526a8318.jpg",
     "static/media/avatar.png": "/Portfolio/static/media/avatar.73b534171fdb44db76de.png",
     "static/media/cmi-header.png": "/Portfolio/static/media/cmi-header.1a5d61bb12462fcad074.png",
@@ -18,12 +18,13 @@
     "static/media/HTML logo.svg": "/Portfolio/static/media/HTML logo.3c33f91897ca041e5e10abbda574518b.svg",
     "static/media/telegram logo.svg": "/Portfolio/static/media/telegram logo.e3d1646af63bc9d0023dd214bda0fbbf.svg",
     "static/media/LinkedIn_logo_In-Black logo.svg": "/Portfolio/static/media/LinkedIn_logo_In-Black logo.721e8ec587e5038cc0d8f3246613bf5e.svg",
+    "static/media/buttonArrowUp.svg": "/Portfolio/static/media/buttonArrowUp.291f1e63e1456cfb83d2921a84880c16.svg",
     "static/media/arrow-down.svg": "/Portfolio/static/media/arrow-down.e92be25f39bb7aa9276b3ba6188bb5be.svg",
-    "main.b76e08b3.css.map": "/Portfolio/static/css/main.b76e08b3.css.map",
-    "main.9015c6c5.js.map": "/Portfolio/static/js/main.9015c6c5.js.map"
+    "main.147a1c98.css.map": "/Portfolio/static/css/main.147a1c98.css.map",
+    "main.7007393c.js.map": "/Portfolio/static/js/main.7007393c.js.map"
   },
   "entrypoints": [
-    "static/css/main.b76e08b3.css",
-    "static/js/main.9015c6c5.js"
+    "static/css/main.147a1c98.css",
+    "static/js/main.7007393c.js"
   ]
 }
