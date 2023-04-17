@@ -11,6 +11,12 @@
     color: white;
 }
 
+.buttonUp:hover {
+    background-color: #f5df4e;
+    box-shadow: 0 0 6px 4px rgba(128, 128, 128, 0.77);
+    transition: 0.4s;
+}
+
 @media (max-width: 1115px) {
     .footerContainer {
         width: 90%;
