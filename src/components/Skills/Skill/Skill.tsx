@@ -11,7 +11,7 @@ export const Skill = ({ icon, title, description }: SkillPropsType) => {
 	return (
 		<div className={style.skill}>
 			<div className={style.icon}>
-				<img src={icon} alt='' />
+				<img src={icon} alt='icon' />
 			</div>
 			<h3 className={style.title}>{title}</h3>
 			<span className={style.description}>{description}</span>
