@@ -1,36 +1,36 @@
 import React from 'react'
-import style from './Projects.module.css'
+import style from './Projects.module.scss'
 import styleContainer from '../../common/styles/Container.module.css'
 import { Project } from './Project/Project'
 import socialNetworkImage from '../../assets/images/projectsImages/enterprise-social-network.png'
 import todoListImage from '../../assets/images/projectsImages/todo.jpg'
 import counterImage from '../../assets/images/projectsImages/cmi-header.png'
 
-export const Projects = () => {
-	const projects = [
-		{
-			id: '1',
-			URL: 'https://github.com/Kravchenko-Sergey/todoList',
-			image: todoListImage,
-			title: 'To-do list',
-			description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci.'
-		},
-		{
-			id: '2',
-			URL: 'https://github.com/Kravchenko-Sergey/social-network',
-			image: socialNetworkImage,
-			title: 'Social network',
-			description: 'Lorem ipsum dolor sit amet.'
-		},
-		{
-			id: '3',
-			URL: '',
-			image: counterImage,
-			title: 'Counter',
-			description: 'Lorem ipsum dolor sit amet, consectetur adipisicing.'
-		}
-	]
+const projects = [
+	{
+		id: '1',
+		URL: 'https://github.com/Kravchenko-Sergey/todoList',
+		image: todoListImage,
+		title: 'To-do list',
+		description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci.'
+	},
+	{
+		id: '2',
+		URL: 'https://github.com/Kravchenko-Sergey/social-network',
+		image: socialNetworkImage,
+		title: 'Social network',
+		description: 'Lorem ipsum dolor sit amet.'
+	},
+	{
+		id: '3',
+		URL: '',
+		image: counterImage,
+		title: 'Counter',
+		description: 'Lorem ipsum dolor sit amet, consectetur adipisicing.'
+	}
+]
 
+export const Projects = () => {
 	const projectElement = projects.map(project => (
 		<Project
 			key={project.id}

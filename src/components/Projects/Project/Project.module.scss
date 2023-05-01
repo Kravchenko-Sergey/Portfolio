@@ -1,0 +1,44 @@
+.project {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex: 1 1 auto;
+    .imgContainer {
+        height: 200px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        img {
+            position: relative;
+            height: 100%;
+            width: 100%;
+            transition: 1s;
+            &::before {
+                position: absolute;
+                content: '';
+                background-color: black;
+                opacity: 0.5;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+            }
+        }
+        .button {
+            height: 100%;
+            width: 100%;
+            transition: 0.5s;
+            :hover {
+                transform: scale(1.2);
+            }
+        }
+    }
+    .projectName {
+        margin: 10px 0;
+        font-size: 24px;
+    }
+}

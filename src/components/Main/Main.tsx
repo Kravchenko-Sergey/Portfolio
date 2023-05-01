@@ -1,7 +1,6 @@
 import React from 'react'
-import style from './Main.module.css'
+import style from './Main.module.scss'
 import styleContainer from '../../common/styles/Container.module.css'
-import arrowDown from '../../assets/images/arrow-down.svg'
 import arrowDown2 from '../../assets/images/arrow-down2.png'
 import avatar from '../../assets/images/avatar.png'
 
@@ -21,7 +20,6 @@ export const Main = () => {
 								<button className={style.button2}>
 									<a href='#contacts'>Contact me</a>
 								</button>
-								<img src={arrowDown} alt='arrowDown' />
 							</div>
 						</div>
 					</div>

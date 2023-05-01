@@ -1,5 +1,5 @@
 import React from 'react'
-import style from './Header.module.css'
+import style from './Header.module.scss'
 import styleContainer from '../../common/styles/Container.module.css'
 import { Nav } from '../Nav/Nav'
 

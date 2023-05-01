@@ -1,0 +1,88 @@
+.aboutMeContainer {
+    padding: 110px 0;
+    display: flex;
+    flex-direction: column;
+    .subTitle {
+        padding: 2px 5px;
+        background-color: #f5df4e;
+    }
+    .title {
+        margin: 25px 0 65px 0;
+        font-size: 40px;
+        font-weight: 600;
+    }
+    .info {
+        align-self: start;
+        .greetings {
+            margin: 0 0 20px 0;
+            font-size: 32px;
+            .name {
+                font-weight: 700;
+                border-bottom: 3px solid #f5df4e;
+                @media (max-width: 1115px) {
+                    font-size: 26px;
+                }
+            }
+            @media (max-width: 1115px) {
+                font-size: 22px;
+            }
+        }
+        .text {
+            margin: 0 0 75px 0;
+            font-size: 21px;
+            max-width: 65%;
+            line-height: 37px;
+            @media (max-width: 1115px) {
+                width: 100%;
+                margin: 0 auto;
+            }
+        }
+        @media (max-width: 1115px) {
+            width: 100%;
+            text-align: center;
+        }
+    }
+    .information {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .prop {
+            flex: 1 1 auto;
+            a {
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 32px;
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+            .propertyTitle {
+                color: grey;
+                line-height: 28px;
+            }
+            .propertyValue {
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 32px;
+                a {
+                    color: inherit;
+                    &:hover {
+                        text-decoration: none;
+                    }
+                }
+            }
+            @media (max-width: 1115px) {
+                margin: 5px 0;
+                flex: 1 1 50%;
+            }
+        }
+        @media (max-width: 1115px) {
+            margin: 40px 0 0 0;
+            text-align: center;
+        }
+    }
+    @media (max-width: 1115px) {
+        width: 90%;
+    }
+}

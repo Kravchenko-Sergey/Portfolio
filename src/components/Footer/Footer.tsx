@@ -1,5 +1,5 @@
 import React from 'react'
-import style from './Footer.module.css'
+import style from './Footer.module.scss'
 import styleContainer from '../../common/styles/Container.module.css'
 import ScrollToTop from 'react-scroll-to-top'
 import { ReactComponent as MySVG } from '../../assets/images/buttonArrowUp.svg'

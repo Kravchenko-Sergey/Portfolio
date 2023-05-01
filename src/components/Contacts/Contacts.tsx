@@ -1,5 +1,5 @@
 import React from 'react'
-import style from './Contacts.module.css'
+import style from './Contacts.module.scss'
 import styleContainer from '../../common/styles/Container.module.css'
 import telegramLogo from '../../assets/images/contactsIcons/telegram logo.svg'
 import VKLogo from '../../assets/images/contactsIcons/cib logo.svg'
