@@ -23,7 +23,7 @@ const projects = [
 	},
 	{
 		id: '3',
-		URL: '',
+		URL: 'https://github.com/Kravchenko-Sergey/Counter',
 		image: counterImage,
 		title: 'Counter',
 		description: 'Lorem ipsum dolor sit amet, consectetur adipisicing.'
