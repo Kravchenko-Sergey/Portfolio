@@ -6,11 +6,11 @@ import avatar from '../../assets/images/avatar.png'
 import Fade from 'react-reveal/Fade'
 import Zoom from 'react-reveal/Zoom'
 import ReactTypingEffect from 'react-typing-effect'
-import { Tilt } from 'react-tilt'
+import { Link } from 'react-scroll'
 
 export const Main = () => {
 	return (
-		<div className={style.mainBlock}>
+		<div id='main' className={style.mainBlock}>
 			<div className={`${styleContainer.container} ${style.mainContainer}`}>
 				<div className={style.content}>
 					<div className={style.text}>
@@ -25,11 +25,37 @@ export const Main = () => {
 						<Fade>
 							<div className={style.buttons}>
 								<button className={style.button1}>
-									<a href='#projects'>View My Works</a>
+									<Link
+										to='projects'
+										spy={true}
+										smooth={true}
+										hashSpy={true}
+										offset={0}
+										duration={1000}
+										delay={0}
+										isDynamic={true}
+										ignoreCancelEvents={false}
+										spyThrottle={500}
+									>
+										View My Works
+									</Link>
 								</button>
 								<div className={style.button2Block}>
 									<button className={style.button2}>
-										<a href='#contacts'>Contact me</a>
+										<Link
+											to='contacts'
+											spy={true}
+											smooth={true}
+											hashSpy={true}
+											offset={0}
+											duration={1000}
+											delay={0}
+											isDynamic={true}
+											ignoreCancelEvents={false}
+											spyThrottle={500}
+										>
+											Contact me
+										</Link>
 									</button>
 								</div>
 							</div>

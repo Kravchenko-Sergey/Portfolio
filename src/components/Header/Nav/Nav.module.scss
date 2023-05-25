@@ -10,5 +10,8 @@
         &:hover {
             border-bottom: 3px solid #f5df4e;
         }
+        @media screen and (max-width: 465px){
+            display: none;
+        }
     }
 }

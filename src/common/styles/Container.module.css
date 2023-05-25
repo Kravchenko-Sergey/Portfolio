@@ -14,3 +14,9 @@
         width: 90%;
     }
 }
+
+@media (max-width: 1066px) {
+    .container {
+        justify-content: center;
+    }
+}

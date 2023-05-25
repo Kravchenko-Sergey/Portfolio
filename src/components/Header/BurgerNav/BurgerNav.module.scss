@@ -1,0 +1,58 @@
+@import '../../../../src/common/styles/sass/variables';
+
+.burgerNav {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    .burgerNavItems {
+        height: 0;
+        padding: 20px;
+        background-color: white;
+        transform: translate(0, -150px);
+        transition: 0.7s;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        a {
+            height: 22px;
+            color: inherit;
+            text-decoration: none;
+            font-weight: 700;
+            &:hover {
+                border-bottom: 3px solid #f5df4e;
+            }
+
+        }
+    }
+    .show {
+        height: 150px;
+        transform: translate(0, 0);
+    }
+    .burgerBtn {
+        width: 30px;
+        height: 30px;
+        background-image: url("../../../assets/images/menu-burger-horizontal-svgrepo-com.svg");
+        background-size: cover;
+        background-position: center;
+        position: absolute;
+        top: 24px;
+        right: 24px;
+    }
+    .btnShow {width: 30px;
+        height: 30px;
+        background-image: url('../../../assets/images/cross-2-svgrepo-com.svg');
+        background-size: cover;
+        background-position: center;
+        position: absolute;
+        top: 24px;
+        right: 24px;
+    }
+    @media screen and (min-width: 465px){
+        display: none;
+    }
+}
