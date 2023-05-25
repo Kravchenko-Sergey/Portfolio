@@ -53,9 +53,7 @@ export const Main = () => {
 											isDynamic={true}
 											ignoreCancelEvents={false}
 											spyThrottle={500}
-										>
-											Contact me
-										</Link>
+										></Link>
 									</button>
 								</div>
 							</div>
@@ -68,9 +66,21 @@ export const Main = () => {
 					</Zoom>
 				</div>
 				<div className={style.arrowDown}>
-					<a href={'#aboutMe'} className={style.arr1}>
+					<Link
+						className={style.arr1}
+						to='aboutMe'
+						spy={true}
+						smooth={true}
+						hashSpy={true}
+						offset={0}
+						duration={1000}
+						delay={0}
+						isDynamic={true}
+						ignoreCancelEvents={false}
+						spyThrottle={500}
+					>
 						<img src={arrowDown2} alt='arrowDown' />
-					</a>
+					</Link>
 				</div>
 			</div>
 		</div>
