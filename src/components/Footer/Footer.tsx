@@ -3,12 +3,15 @@ import style from './Footer.module.scss'
 import styleContainer from '../../common/styles/Container.module.css'
 import ScrollToTop from 'react-scroll-to-top'
 import { ReactComponent as MySVG } from '../../assets/images/buttonArrowUp.svg'
+import Fade from 'react-reveal/Fade'
 
 export const Footer = () => {
 	return (
 		<div className={style.footerBlock}>
 			<div className={`${styleContainer.container} ${style.footerContainer}`}>
-				<span className={style.text}>Copyright © 2023. All Rights Reserved.</span>
+				<Fade bottom>
+					<span className={style.text}>Copyright © 2023. All Rights Reserved.</span>
+				</Fade>
 			</div>
 			<div>
 				<ScrollToTop

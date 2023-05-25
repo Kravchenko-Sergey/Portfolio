@@ -5,6 +5,7 @@ import { Project } from './Project/Project'
 import socialNetworkImage from '../../assets/images/projectsImages/enterprise-social-network.png'
 import todoListImage from '../../assets/images/projectsImages/todo.jpg'
 import counterImage from '../../assets/images/projectsImages/cmi-header.png'
+import Fade from 'react-reveal/Fade'
 
 const projects = [
 	{
@@ -44,8 +45,10 @@ export const Projects = () => {
 	return (
 		<div id='projects' className={style.projectsBlock}>
 			<div className={`${styleContainer.container} ${style.projectsContainer}`}>
-				<span className={style.subTitle}>Portfolio</span>
-				<h2 className={style.title}>Some of my most recent project</h2>
+				<Fade bottom>
+					<span className={style.subTitle}>Portfolio</span>
+					<h2 className={style.title}>Some of my most recent project</h2>
+				</Fade>
 				<div className={style.projects}>{projectElement}</div>
 			</div>
 		</div>

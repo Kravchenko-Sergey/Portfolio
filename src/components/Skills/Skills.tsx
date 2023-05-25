@@ -9,6 +9,7 @@ import storybookLogo from '../../assets/images/skillsIcons/storybook-icon logo.s
 import ReactLogo from '../../assets/images/skillsIcons/React logo.svg'
 import ReduxLogo from '../../assets/images/skillsIcons/redux logo.svg'
 import TypeScriptLogo from '../../assets/images/skillsIcons/Typescript.svg'
+import Fade from 'react-reveal/Fade'
 
 const skills = [
 	{
@@ -70,8 +71,10 @@ export const Skills = () => {
 	return (
 		<div className={style.skillsBlock}>
 			<div className={`${styleContainer.container} ${style.skillsContainer}`}>
-				<span className={style.subTitle}>What i do?</span>
-				<h2 className={style.title}>How I can help your next project</h2>
+				<Fade bottom>
+					<span className={style.subTitle}>What i do?</span>
+					<h2 className={style.title}>How I can help your next project</h2>
+				</Fade>
 				<div className={style.skills}>{skillElement}</div>
 			</div>
 		</div>

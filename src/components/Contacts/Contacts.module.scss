@@ -73,6 +73,7 @@
                         border-style: none;
                         border-bottom: 1px solid lightgrey;
                         outline:none;
+                        box-shadow: 0 0 0 1000px #f5df4e inset;
                         :focus {
                             border-style: none;
                             border-bottom: 1px solid black;
@@ -99,11 +100,27 @@
                         }
                     }
                     @media (max-width: 1115px) {
-                        width: 80%
+                        width: 80%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
                     }
+                    @media (max-width: 1115px) {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                }
+                @media (max-width: 1115px) {
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
                 }
             }
             .button {
+                width: 120px;
                 margin: 20px 0 0 0;
                 padding: 10px 30px;
                 font-weight: 500;
@@ -115,6 +132,7 @@
                 }
             }
             .buttonDisabled {
+                width: 120px;
                 margin: 20px 0 0 0;
                 padding: 10px 30px;
                 font-weight: 500;
@@ -131,6 +149,7 @@
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
+                text-align: center;
             }
         }
         @media (max-width: 1115px) {

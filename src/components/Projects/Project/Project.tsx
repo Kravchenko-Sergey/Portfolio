@@ -1,5 +1,6 @@
 import React from 'react'
 import style from './Project.module.scss'
+import Fade from 'react-reveal/Fade'
 
 type ProjectPropsType = {
 	image: string
@@ -10,14 +11,16 @@ type ProjectPropsType = {
 
 export const Project = ({ image, URL, title, description }: ProjectPropsType) => {
 	return (
-		<div className={style.project}>
-			<div className={style.imgContainer}>
-				<a href={URL} target={'_blank'} className={style.button}>
-					<img src={image} alt='' />
-				</a>
+		<Fade bottom>
+			<div className={style.project}>
+				<div className={style.imgContainer}>
+					<a href={URL} target={'_blank'} className={style.button}>
+						<img src={image} alt='' />
+					</a>
+				</div>
+				<h3 className={style.projectName}>{title}</h3>
+				<span className={style.description}>{description}</span>
 			</div>
-			<h3 className={style.projectName}>{title}</h3>
-			<span className={style.description}>{description}</span>
-		</div>
+		</Fade>
 	)
 }
